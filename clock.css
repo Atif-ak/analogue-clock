@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to right top, #1f3d6b, #006ea2, #009faa, #00cb79, #a8eb12);
+}
+#header{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color:darkblue;
+    margin-bottom: 18px;
+    margin-top: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#container{  
+    position: relative;
+    margin: auto auto;
+    height: 40vw;
+    width: 40vw; 
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+}
+#minhand, #sechand, #hourhand{
+    position: absolute;
+    transform-origin: bottom;
+
+}
+#hourhand{
+    width: 8px;
+    height: 26%;
+    top: 23%;
+    left: 49%;
+    background-color: black;
+    border-radius: 10px;
+    /* display: none; */
+}
+#minhand{
+    width: 8px;
+    height: 32%;
+    top: 17.7%;
+    left: 49%;
+    background-color: black;
+    border-radius: 10px;
+    opacity: 0.84;
+    /* display: none; */
+}
+#sechand{
+    width: 5px;
+    height: 37%;
+    top: 13%;
+    left: 49.2%;
+    background-color: rgb(247, 77, 77);
+    border-radius: 10px;
+    /* display: none; */
+    
+}
